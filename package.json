@@ -1,0 +1,31 @@
+{
+  "name": "immersive-entertainment-contracts",
+  "version": "0.0.1",
+  "description": "Immersive Entertainment ICO contracts",
+  "main": "TGEToken.sol",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altoros/immersive-entertainment-contracts.git"
+  },
+  "keywords": [
+    "ICO"
+  ],
+  "author": "Aliaksei Hiatsevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Altoros/immersive-entertainment-contracts/issues"
+  },
+  "homepage": "https://github.com/Altoros/immersive-entertainment-contracts#readme",
+  "dependencies": {
+    "ganache-cli": "6.0.3",
+    "truffle": "4.1.0",
+    "truffle-hdwallet-provider": "mikefluff/truffle-hdwallet-provider#7a2eccca1ba17c235a3ef258914ca74ea5f13014",
+    "zeppelin-solidity": "1.7.0"
+  }
+}
