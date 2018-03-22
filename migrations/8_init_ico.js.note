@@ -1,0 +1,17 @@
+const ICOCrowdsale = artifacts.require("./ICOCrowdsale.sol");
+const VUToken = artifacts.require("./VUToken.sol");
+
+module.exports = function(deployer, network) {
+  // NOTE: MARGE must approve 450000000 tokens for ICOCrowdsale contract in MAINNET
+  // see code below
+
+  if (network === "development") {
+    deployer.then(async () => {
+      const asset = await VUToken.deployed();
+      const icoCrowdsale = await ICOCrowdsale.deployed();
+
+      const icoCap = web3.toBigNumber(450000000).mul(web3.toBigNumber(10).pow(18));
+      await asset.approve(icoCrowdsale.address, icoCap);
+    })
+  }
+};
