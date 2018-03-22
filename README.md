@@ -1,4 +1,4 @@
-# TGE ICO token
+# TGE VU token
 
 ## Setting up your environment
 
