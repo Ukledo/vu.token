@@ -2,12 +2,13 @@
   "name": "immersive-entertainment-contracts",
   "version": "0.0.1",
   "description": "Immersive Entertainment ICO contracts",
-  "main": "TGEToken.sol",
+  "main": "VUToken.sol",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "truffle test"
+    "test": "truffle test",
+    "coverage": "solidity-coverage"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,18 @@
     "ganache-cli": "6.0.3",
     "truffle": "4.1.0",
     "truffle-hdwallet-provider": "mikefluff/truffle-hdwallet-provider#7a2eccca1ba17c235a3ef258914ca74ea5f13014",
-    "zeppelin-solidity": "1.7.0"
+    "zeppelin-solidity": "1.7.0",
+    "bignumber.js": "6.0.0",
+    "csv-parse": "^1.2.1",
+    "csv-writer": "^0.0.3",
+    "abi-decoder": "^1.0.9",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-register": "^6.26.0",
+    "solidity-coverage": "^0.4.9"
   }
 }
