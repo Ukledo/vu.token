@@ -12,6 +12,7 @@ import "./BaseCrowdsale.sol";
 contract ICOCrowdsale is BaseCrowdsale {
     // how many token units a buyer gets per wei
     uint public constant RATE = 6000;
+    uint public constant MAX_LIMIT = 450000000 * (10**18);
 
     /**
     * @dev Constructor
@@ -39,7 +40,8 @@ contract ICOCrowdsale is BaseCrowdsale {
             RATE,
             _openingTime,
             _closingTime,
-            _deliveryTime)
+            _deliveryTime,
+            MAX_LIMIT)
     {
     }
 }

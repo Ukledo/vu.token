@@ -237,7 +237,7 @@ contract('ICOCrawdsaleTestable', function (accounts) {
             await assertCap(testPresale);
         })
 
-        it('shouldn\'t allow to buy tokens more then allowed', async () => {
+        it('shouldn\'t allow to buy tokens more then limit', async () => {
             const presale = await PresaleCrowdsaleTestable.deployed();
 
             let token = await VUTokenTestable.deployed();
@@ -308,6 +308,22 @@ contract('ICOCrawdsaleTestable', function (accounts) {
             assert.isTrue(balance.eq(value * 6000));
 
             assert.isTrue((await token.balanceOf(participant)).isZero());
+        })
+
+        it('shouldn\'t allow to buy tokens more then limit', async () => {
+            const ico = await ICOCrowdsaleTestable.deployed();
+
+            let token = await VUTokenTestable.deployed();
+            let allowance = await token.allowance(tokenWallet, ico.address);
+
+            const value = (await ico.limit()).div(await ico.RATE());
+
+            try {
+                await ico.buyTokens(participant, {from: participant, value:value.add(100)});
+                assert.isTrue(false);
+            } catch (error) {
+                utils.ensureException(error);
+            }
         })
 
         it('should allow to withdraw tokens after delivery date', async () => {

@@ -58,7 +58,8 @@ contract PresaleCrowdsale is BaseCrowdsale {
             PHASE1_RATE,
             _openingTime,
             _closingTime,
-            _deliveryTime)
+            _deliveryTime,
+            PHASE3_LIMIT)
     {
     }
 

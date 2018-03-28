@@ -19,7 +19,8 @@ contract BaseCrowdsale is AllowanceCrowdsale, PostDeliveryCrowdsale, Ownable {
     Whitelist public whitelist;
     // amount of tokens sold
     uint public tokensSold = 0;
-    uint256 public deliveryTime;
+    uint public deliveryTime;
+    uint public limit;
 
     /**
     * @dev Reverts if beneficiary is not whitelisted.
@@ -47,7 +48,8 @@ contract BaseCrowdsale is AllowanceCrowdsale, PostDeliveryCrowdsale, Ownable {
         uint _rate,
         uint _openingTime,
         uint _closingTime,
-        uint _deliveryTime)
+        uint _deliveryTime,
+        uint _limit)
     public
         Crowdsale(_rate, _wallet, _token)
         AllowanceCrowdsale(_tokenWallet)
@@ -55,6 +57,7 @@ contract BaseCrowdsale is AllowanceCrowdsale, PostDeliveryCrowdsale, Ownable {
     {
         require(_whitelist != 0x0);
         require(now < _deliveryTime);
+        require(_limit > 0);
         // we know that the end is planned for ~June 30th, just to be sure that
         // _deliveryTime will not be unexpectedly big (mistake during deployment, for example)
         require(_deliveryTime < now + 100 days);
@@ -62,6 +65,7 @@ contract BaseCrowdsale is AllowanceCrowdsale, PostDeliveryCrowdsale, Ownable {
         whitelist = Whitelist(_whitelist);
 
         deliveryTime = _deliveryTime;
+        limit = _limit;
 
         _init();
     }
@@ -104,6 +108,8 @@ contract BaseCrowdsale is AllowanceCrowdsale, PostDeliveryCrowdsale, Ownable {
     internal
     {
         tokensSold = tokensSold.add(_tokenAmount);
+        require(limit >= tokensSold);
+
         PostDeliveryCrowdsale._processPurchase(_beneficiary, _tokenAmount);
     }
 }

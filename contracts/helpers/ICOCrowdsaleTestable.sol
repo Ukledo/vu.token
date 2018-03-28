@@ -9,6 +9,7 @@ import "../crowdsale/ICOCrowdsale.sol";
 */
 contract ICOCrowdsaleTestable is ICOCrowdsale {
     uint public constant RATE = 6000;
+    uint public constant MAX_LIMIT = 4500000 * (10**15);
 
     function ICOCrowdsaleTestable(
         ERC20 _token,
@@ -27,5 +28,6 @@ contract ICOCrowdsaleTestable is ICOCrowdsale {
             _deliveryTime)
     {
         rate = RATE;
+        limit = MAX_LIMIT;
     }
 }

@@ -30,7 +30,7 @@ module.exports = async (deployer, network, accounts) => {
             await token.approve(PresaleCrowdsaleTestable.address, presaleCap, {from: tokenWallet});
 
             // ICO
-            const icoCap = web3.toBigNumber(450000000).mul(web3.toBigNumber(10).pow(18));
+            const icoCap = web3.toBigNumber(4500000).mul(web3.toBigNumber(10).pow(15));
             await deployer.deploy(ICOCrowdsaleTestable, token.address, Whitelist.address, tokenWallet, wallet, deliveryTime);
             await token.transfer(tokenWallet, icoCap);
             await token.approve(ICOCrowdsaleTestable.address, icoCap, {from: tokenWallet});
