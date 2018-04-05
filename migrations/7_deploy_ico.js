@@ -11,7 +11,7 @@ module.exports = function(deployer, network, accounts) {
     var endTime;
 
     if (network === "main") {
-        startTime = (new Date('April 30, 2018 00:00:00')).getTime() / 1000;
+        startTime = (new Date('April 6, 2018 00:00:00')).getTime() / 1000;
         endTime = (new Date('June 30, 2018 00:00:00')).getTime() / 1000;
     } else if (network === "rinkeby") {
         startTime = (new Date()).getTime() / 1000 + 120;
