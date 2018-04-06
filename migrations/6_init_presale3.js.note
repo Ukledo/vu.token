@@ -1,0 +1,17 @@
+const PresaleCrowdsale = artifacts.require("./PresaleCrowdsale.sol");
+const VUToken = artifacts.require("./VUToken.sol");
+
+module.exports = function(deployer, network) {
+    // NOTE: MARGE must approve 150000000 tokens for PresaleCrowdsale contract in MAINNET and rinkeby
+    // see code below
+
+    if (network === "development") {
+      deployer.then(async () => {
+        const asset = await VUToken.deployed();
+        const presaleCrowdsale = await PresaleCrowdsale.deployed();
+
+        const presaleCap = web3.toBigNumber(150000000).mul(web3.toBigNumber(10).pow(18));
+        await asset.approve(presaleCrowdsale.address, presaleCap);
+      })
+    }
+};
