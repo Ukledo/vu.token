@@ -250,7 +250,6 @@
         "nodes": [
           {
             "body": null,
-            "documentation": null,
             "id": 1925,
             "implemented": false,
             "isConstructor": false,
@@ -359,7 +358,6 @@
           },
           {
             "body": null,
-            "documentation": null,
             "id": 1936,
             "implemented": false,
             "isConstructor": false,
@@ -494,7 +492,6 @@
           },
           {
             "body": null,
-            "documentation": null,
             "id": 1945,
             "implemented": false,
             "isConstructor": false,
@@ -603,7 +600,6 @@
           },
           {
             "anonymous": false,
-            "documentation": null,
             "id": 1953,
             "name": "Approval",
             "nodeType": "EventDefinition",
@@ -773,7 +769,6 @@
         "nodes": [
           {
             "body": null,
-            "documentation": null,
             "id": 1925,
             "implemented": false,
             "isConstructor": false,
@@ -882,7 +877,6 @@
           },
           {
             "body": null,
-            "documentation": null,
             "id": 1936,
             "implemented": false,
             "isConstructor": false,
@@ -1017,7 +1011,6 @@
           },
           {
             "body": null,
-            "documentation": null,
             "id": 1945,
             "implemented": false,
             "isConstructor": false,
@@ -1126,7 +1119,6 @@
           },
           {
             "anonymous": false,
-            "documentation": null,
             "id": 1953,
             "name": "Approval",
             "nodeType": "EventDefinition",
@@ -1229,9 +1221,9 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-05T21:30:48.871Z"
+  "updatedAt": "2018-04-06T09:54:35.938Z"
 }

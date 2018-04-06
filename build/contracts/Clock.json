@@ -16,14 +16,14 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x60606040523415600e57600080fd5b609e8061001c6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806316ada547146044575b600080fd5b3415604e57600080fd5b6054606a565b6040518082815260200191505060405180910390f35b6000429050905600a165627a7a723058205da23cf5e27a98ffc9fd5bbf7791b99b34ce2c594f0fd214ed3d1d05225b82810029",
-  "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806316ada547146044575b600080fd5b3415604e57600080fd5b6054606a565b6040518082815260200191505060405180910390f35b6000429050905600a165627a7a723058205da23cf5e27a98ffc9fd5bbf7791b99b34ce2c594f0fd214ed3d1d05225b82810029",
+  "bytecode": "0x60606040523415600e57600080fd5b609e8061001c6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806316ada547146044575b600080fd5b3415604e57600080fd5b6054606a565b6040518082815260200191505060405180910390f35b6000429050905600a165627a7a723058206f29d0c884f280d088e6b55189270563e78cdf21bc6a0bf6fce8f4f541fd157c0029",
+  "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806316ada547146044575b600080fd5b3415604e57600080fd5b6054606a565b6040518082815260200191505060405180910390f35b6000429050905600a165627a7a723058206f29d0c884f280d088e6b55189270563e78cdf21bc6a0bf6fce8f4f541fd157c0029",
   "sourceMap": "26:93:4:-;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "26:93:4:-;;;;;;;;;;;;;;;;;;;;;;;;47:70;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;84:4;107:3;100:10;;47:70;:::o",
   "source": "pragma solidity ^0.4.11;\n\ncontract Clock {\n    function time() public view returns (uint) {\n        return now;\n    }\n}\n",
-  "sourcePath": "/media/jeroen/temp/vu.token/contracts/helpers/Clock.sol",
+  "sourcePath": "/Users/ahiatsevich/Development/blockchain/immersive-entertainment-contracts/contracts/helpers/Clock.sol",
   "ast": {
-    "absolutePath": "/media/jeroen/temp/vu.token/contracts/helpers/Clock.sol",
+    "absolutePath": "/Users/ahiatsevich/Development/blockchain/immersive-entertainment-contracts/contracts/helpers/Clock.sol",
     "exportedSymbols": {
       "Clock": [
         746
@@ -69,7 +69,7 @@
                     "name": "now",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 2349,
+                    "referencedDeclaration": 2348,
                     "src": "107:3:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -83,7 +83,6 @@
                 }
               ]
             },
-            "documentation": null,
             "id": 745,
             "implemented": true,
             "isConstructor": false,
@@ -145,7 +144,7 @@
     "src": "0:120:4"
   },
   "legacyAST": {
-    "absolutePath": "/media/jeroen/temp/vu.token/contracts/helpers/Clock.sol",
+    "absolutePath": "/Users/ahiatsevich/Development/blockchain/immersive-entertainment-contracts/contracts/helpers/Clock.sol",
     "exportedSymbols": {
       "Clock": [
         746
@@ -191,7 +190,7 @@
                     "name": "now",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 2349,
+                    "referencedDeclaration": 2348,
                     "src": "107:3:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -205,7 +204,6 @@
                 }
               ]
             },
-            "documentation": null,
             "id": 745,
             "implemented": true,
             "isConstructor": false,
@@ -268,9 +266,9 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-05T21:38:47.550Z"
+  "updatedAt": "2018-04-06T09:54:35.915Z"
 }

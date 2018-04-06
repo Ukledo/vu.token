@@ -401,7 +401,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "609:7:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -474,7 +474,6 @@
                 }
               ]
             },
-            "documentation": "@dev Constructor, takes token wallet address. \n@param _tokenWallet Address holding the tokens, which has approved allowance to the crowdsale",
             "id": 1400,
             "implemented": true,
             "isConstructor": true,
@@ -557,7 +556,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2366,
+                        "referencedDeclaration": 2365,
                         "src": "909:4:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_AllowanceCrowdsale_$1429",
@@ -624,7 +623,6 @@
                 }
               ]
             },
-            "documentation": "@dev Checks the amount of tokens left in the allowance.\n@return Amount of tokens left in the allowance",
             "id": 1412,
             "implemented": true,
             "isConstructor": false,
@@ -790,7 +788,6 @@
                 }
               ]
             },
-            "documentation": "@dev Overrides parent behavior by transferring tokens from wallet.\n@param _beneficiary Token purchaser\n@param _tokenAmount Amount of tokens purchased",
             "id": 1428,
             "implemented": true,
             "isConstructor": false,
@@ -1129,7 +1126,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "609:7:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1202,7 +1199,6 @@
                 }
               ]
             },
-            "documentation": "@dev Constructor, takes token wallet address. \n@param _tokenWallet Address holding the tokens, which has approved allowance to the crowdsale",
             "id": 1400,
             "implemented": true,
             "isConstructor": true,
@@ -1285,7 +1281,7 @@
                         "name": "this",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2366,
+                        "referencedDeclaration": 2365,
                         "src": "909:4:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_AllowanceCrowdsale_$1429",
@@ -1352,7 +1348,6 @@
                 }
               ]
             },
-            "documentation": "@dev Checks the amount of tokens left in the allowance.\n@return Amount of tokens left in the allowance",
             "id": 1412,
             "implemented": true,
             "isConstructor": false,
@@ -1518,7 +1513,6 @@
                 }
               ]
             },
-            "documentation": "@dev Overrides parent behavior by transferring tokens from wallet.\n@param _beneficiary Token purchaser\n@param _tokenAmount Amount of tokens purchased",
             "id": 1428,
             "implemented": true,
             "isConstructor": false,
@@ -1607,9 +1601,9 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-05T21:30:48.860Z"
+  "updatedAt": "2018-04-06T09:54:35.927Z"
 }

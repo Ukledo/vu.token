@@ -15,8 +15,8 @@ module.exports = async (deployer, network, accounts) => {
             const deliveryDate = new Date('July 1, 2018 00:00:00');
             const deliveryTime = deliveryDate.getTime() / 1000;
 
-            await deployer.deploy(VUTokenTestable);
-            const token = await VUTokenTestable.deployed();
+            //await deployer.deploy(VUTokenTestable);
+            const token = await VUTokenTestable.at("0x014a6ed0ab72208efd09ac0cbfd6aad101112b06");//deployed();
 
             // Presale
             await deployer.deploy(PresaleCrowdsaleTestable, token.address, Whitelist.address, tokenWallet, wallet, deliveryTime);

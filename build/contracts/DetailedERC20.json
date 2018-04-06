@@ -535,7 +535,6 @@
                 }
               ]
             },
-            "documentation": null,
             "id": 1910,
             "implemented": true,
             "isConstructor": true,
@@ -941,7 +940,6 @@
                 }
               ]
             },
-            "documentation": null,
             "id": 1910,
             "implemented": true,
             "isConstructor": true,
@@ -1056,9 +1054,9 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-05T21:30:48.870Z"
+  "updatedAt": "2018-04-06T09:54:35.936Z"
 }

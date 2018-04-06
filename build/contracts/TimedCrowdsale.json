@@ -362,7 +362,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2349,
+                            "referencedDeclaration": 2348,
                             "src": "423:3:13",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -409,7 +409,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2349,
+                            "referencedDeclaration": 2348,
                             "src": "445:3:13",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -455,7 +455,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "415:7:13",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -487,7 +487,6 @@
                 }
               ]
             },
-            "documentation": "@dev Reverts if not in crowdsale time range. ",
             "id": 1456,
             "name": "onlyWhileOpen",
             "nodeType": "ModifierDefinition",
@@ -542,7 +541,7 @@
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2349,
+                          "referencedDeclaration": 2348,
                           "src": "759:3:13",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -567,7 +566,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "735:7:13",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -653,7 +652,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "769:7:13",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -772,7 +771,6 @@
                 }
               ]
             },
-            "documentation": "@dev Constructor, takes crowdsale opening and closing times.\n@param _openingTime Crowdsale opening time\n@param _closingTime Crowdsale closing time",
             "id": 1484,
             "implemented": true,
             "isConstructor": true,
@@ -876,7 +874,7 @@
                       "name": "now",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2349,
+                      "referencedDeclaration": 2348,
                       "src": "1091:3:13",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -911,7 +909,6 @@
                 }
               ]
             },
-            "documentation": "@dev Checks whether the period in which the crowdsale is open has already elapsed.\n@return Whether crowdsale period has elapsed",
             "id": 1494,
             "implemented": true,
             "isConstructor": false,
@@ -1019,7 +1016,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2369,
+                        "referencedDeclaration": 2368,
                         "src": "1398:5:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_TimedCrowdsale_$1512",
@@ -1060,7 +1057,6 @@
                 }
               ]
             },
-            "documentation": "@dev Extend parent behavior requiring to be within contributing period\n@param _beneficiary Token purchaser\n@param _weiAmount Amount of wei contributed",
             "id": 1511,
             "implemented": true,
             "isConstructor": false,
@@ -1362,7 +1358,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2349,
+                            "referencedDeclaration": 2348,
                             "src": "423:3:13",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1409,7 +1405,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2349,
+                            "referencedDeclaration": 2348,
                             "src": "445:3:13",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1455,7 +1451,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "415:7:13",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1487,7 +1483,6 @@
                 }
               ]
             },
-            "documentation": "@dev Reverts if not in crowdsale time range. ",
             "id": 1456,
             "name": "onlyWhileOpen",
             "nodeType": "ModifierDefinition",
@@ -1542,7 +1537,7 @@
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2349,
+                          "referencedDeclaration": 2348,
                           "src": "759:3:13",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -1567,7 +1562,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "735:7:13",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1653,7 +1648,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "769:7:13",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1772,7 +1767,6 @@
                 }
               ]
             },
-            "documentation": "@dev Constructor, takes crowdsale opening and closing times.\n@param _openingTime Crowdsale opening time\n@param _closingTime Crowdsale closing time",
             "id": 1484,
             "implemented": true,
             "isConstructor": true,
@@ -1876,7 +1870,7 @@
                       "name": "now",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2349,
+                      "referencedDeclaration": 2348,
                       "src": "1091:3:13",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -1911,7 +1905,6 @@
                 }
               ]
             },
-            "documentation": "@dev Checks whether the period in which the crowdsale is open has already elapsed.\n@return Whether crowdsale period has elapsed",
             "id": 1494,
             "implemented": true,
             "isConstructor": false,
@@ -2019,7 +2012,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2369,
+                        "referencedDeclaration": 2368,
                         "src": "1398:5:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_TimedCrowdsale_$1512",
@@ -2060,7 +2053,6 @@
                 }
               ]
             },
-            "documentation": "@dev Extend parent behavior requiring to be within contributing period\n@param _beneficiary Token purchaser\n@param _weiAmount Amount of wei contributed",
             "id": 1511,
             "implemented": true,
             "isConstructor": false,
@@ -2169,9 +2161,9 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-05T21:30:48.861Z"
+  "updatedAt": "2018-04-06T09:54:35.928Z"
 }

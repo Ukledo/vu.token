@@ -123,10 +123,10 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b6040516060806106718339810160405280805190602001909190805190602001909190805190602001909190505060008311151561004c57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561008857600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156100c457600080fd5b8260028190555081600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505050506105138061015e6000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632c4e722e146100785780634042b66f146100a1578063521eb273146100ca578063ec8ac4d81461011f578063fc0c546a1461014d575b610076336101a2565b005b341561008357600080fd5b61008b610270565b6040518082815260200191505060405180910390f35b34156100ac57600080fd5b6100b4610276565b6040518082815260200191505060405180910390f35b34156100d557600080fd5b6100dd61027c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014b600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101a2565b005b341561015857600080fd5b6101606102a2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000803491506101b283836102c7565b6101bb82610317565b90506101d28260035461033590919063ffffffff16565b6003819055506101e28382610353565b8273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad188484604051808381526020018281526020019250505060405180910390a36102598383610361565b610261610365565b61026b83836103c9565b505050565b60025481565b60035481565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561030357600080fd5b6000811415151561031357600080fd5b5050565b600061032e600254836103cd90919063ffffffff16565b9050919050565b600080828401905083811015151561034957fe5b8091505092915050565b61035d8282610408565b5050565b5050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015156103c757600080fd5b565b5050565b60008060008414156103e25760009150610401565b82840290508284828115156103f357fe5b041415156103fd57fe5b8091505b5092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15156104cb57600080fd5b5af115156104d857600080fd5b505050604051805190505050505600a165627a7a72305820f186bfa83c4ba412ca04970fafd1e4ba5c836d32ae5966d274ee1d3966b5c6e50029",
-  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632c4e722e146100785780634042b66f146100a1578063521eb273146100ca578063ec8ac4d81461011f578063fc0c546a1461014d575b610076336101a2565b005b341561008357600080fd5b61008b610270565b6040518082815260200191505060405180910390f35b34156100ac57600080fd5b6100b4610276565b6040518082815260200191505060405180910390f35b34156100d557600080fd5b6100dd61027c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014b600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101a2565b005b341561015857600080fd5b6101606102a2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000803491506101b283836102c7565b6101bb82610317565b90506101d28260035461033590919063ffffffff16565b6003819055506101e28382610353565b8273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad188484604051808381526020018281526020019250505060405180910390a36102598383610361565b610261610365565b61026b83836103c9565b505050565b60025481565b60035481565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561030357600080fd5b6000811415151561031357600080fd5b5050565b600061032e600254836103cd90919063ffffffff16565b9050919050565b600080828401905083811015151561034957fe5b8091505092915050565b61035d8282610408565b5050565b5050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015156103c757600080fd5b565b5050565b60008060008414156103e25760009150610401565b82840290508284828115156103f357fe5b041415156103fd57fe5b8091505b5092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15156104cb57600080fd5b5af115156104d857600080fd5b505050604051805190505050505600a165627a7a72305820f186bfa83c4ba412ca04970fafd1e4ba5c836d32ae5966d274ee1d3966b5c6e50029",
+  "bytecode": "0x6060604052341561000f57600080fd5b60405160608061067e8339810160405280805190602001909190805190602001909190805190602001909190505060008311151561004c57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561008857600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156100c457600080fd5b8260028190555081600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505050506105208061015e6000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632c4e722e146100785780634042b66f146100a1578063521eb273146100ca578063ec8ac4d81461011f578063fc0c546a1461014d575b610076336101a2565b005b341561008357600080fd5b61008b610270565b6040518082815260200191505060405180910390f35b34156100ac57600080fd5b6100b4610276565b6040518082815260200191505060405180910390f35b34156100d557600080fd5b6100dd61027c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014b600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101a2565b005b341561015857600080fd5b6101606102a2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000803491506101b283836102c7565b6101bb82610317565b90506101d28260035461033590919063ffffffff16565b6003819055506101e28382610353565b8273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad188484604051808381526020018281526020019250505060405180910390a36102598383610361565b610261610365565b61026b83836103c9565b505050565b60025481565b60035481565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561030357600080fd5b6000811415151561031357600080fd5b5050565b600061032e600254836103cd90919063ffffffff16565b9050919050565b600080828401905083811015151561034957fe5b8091505092915050565b61035d8282610408565b5050565b5050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015156103c757600080fd5b565b5050565b60008060008414156103e25760009150610401565b82840290508284828115156103f357fe5b041415156103fd57fe5b8091505b5092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836000604051602001526040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15156104d457600080fd5b6102c65a03f115156104e557600080fd5b505050604051805190505050505600a165627a7a723058205d19567ed26906b48c5a2c370b6cb896ae6198da416158762545656647d921c30029",
+  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632c4e722e146100785780634042b66f146100a1578063521eb273146100ca578063ec8ac4d81461011f578063fc0c546a1461014d575b610076336101a2565b005b341561008357600080fd5b61008b610270565b6040518082815260200191505060405180910390f35b34156100ac57600080fd5b6100b4610276565b6040518082815260200191505060405180910390f35b34156100d557600080fd5b6100dd61027c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014b600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101a2565b005b341561015857600080fd5b6101606102a2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000803491506101b283836102c7565b6101bb82610317565b90506101d28260035461033590919063ffffffff16565b6003819055506101e28382610353565b8273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad188484604051808381526020018281526020019250505060405180910390a36102598383610361565b610261610365565b61026b83836103c9565b505050565b60025481565b60035481565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561030357600080fd5b6000811415151561031357600080fd5b5050565b600061032e600254836103cd90919063ffffffff16565b9050919050565b600080828401905083811015151561034957fe5b8091505092915050565b61035d8282610408565b5050565b5050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015156103c757600080fd5b565b5050565b60008060008414156103e25760009150610401565b82840290508284828115156103f357fe5b041415156103fd57fe5b8091505b5092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836000604051602001526040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15156104d457600080fd5b6102c65a03f115156104e557600080fd5b505050604051805190505050505600a165627a7a723058205d19567ed26906b48c5a2c370b6cb896ae6198da416158762545656647d921c30029",
   "sourceMap": "791:4606:10:-;;;1617:233;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1711:1;1703:5;:9;1695:18;;;;;;;;1746:1;1727:21;;:7;:21;;;;1719:30;;;;;;;;1781:1;1763:20;;:6;:20;;;;1755:29;;;;;;;;1798:5;1791:4;:12;;;;1818:7;1809:6;;:16;;;;;;;;;;;;;;;;;;1839:6;1831:5;;:14;;;;;;;;;;;;;;;;;;1617:233;;;791:4606;;;;;;",
-  "deployedSourceMap": "791:4606:10:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2080:21;2090:10;2080:9;:21::i;:::-;791:4606;1006:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1056:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;933:21;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2242:542;;;;;;;;;;;;;;;;;;;;871:18;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2242:542;2305:17;2436:14;2325:9;2305:29;;2340:45;2361:12;2375:9;2340:20;:45::i;:::-;2453:26;2469:9;2453:15;:26::i;:::-;2436:43;;2518:24;2532:9;2518;;:13;;:24;;;;:::i;:::-;2506:9;:36;;;;2549:38;2566:12;2580:6;2549:16;:38::i;:::-;2619:12;2593:58;;2607:10;2593:58;;;2633:9;2644:6;2593:58;;;;;;;;;;;;;;;;;;;;;;;;2658:47;2681:12;2695:9;2658:22;:47::i;:::-;2712:15;:13;:15::i;:::-;2733:46;2755:12;2769:9;2733:21;:46::i;:::-;2242:542;;;:::o;1006:19::-;;;;:::o;1056:24::-;;;;:::o;933:21::-;;;;;;;;;;;;;:::o;871:18::-;;;;;;;;;;;;;:::o;3207:157::-;3326:1;3302:26;;:12;:26;;;;3294:35;;;;;;;;3357:1;3343:10;:15;;3335:24;;;;;;;;3207:157;;:::o;5130:115::-;5198:7;5220:20;5235:4;;5220:10;:14;;:20;;;;:::i;:::-;5213:27;;5130:115;;;:::o;1008:129:15:-;1066:7;1081:9;1097:1;1093;:5;1081:17;;1116:1;1111;:6;;1104:14;;;;;;1131:1;1124:8;;1008:129;;;;;:::o;4394:132:10:-;4479:42;4494:12;4508;4479:14;:42::i;:::-;4394:132;;:::o;4779:113::-;;;:::o;5324:71::-;5364:6;;;;;;;;;;;:15;;:26;5380:9;5364:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;5324:71::o;3642:112::-;;;:::o;203:173:15:-;261:7;316:9;285:1;280;:6;276:35;;;303:1;296:8;;;;276:35;332:1;328;:5;316:17;;355:1;350;346;:5;;;;;;;;:10;339:18;;;;;;370:1;363:8;;203:173;;;;;;:::o;4017:130:10:-;4100:5;;;;;;;;;;;:14;;;4115:12;4129;4100:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4017:130;;:::o",
+  "deployedSourceMap": "791:4606:10:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2080:21;2090:10;2080:9;:21::i;:::-;791:4606;1006:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1056:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;933:21;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2242:542;;;;;;;;;;;;;;;;;;;;871:18;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2242:542;2305:17;2436:14;2325:9;2305:29;;2340:45;2361:12;2375:9;2340:20;:45::i;:::-;2453:26;2469:9;2453:15;:26::i;:::-;2436:43;;2518:24;2532:9;2518;;:13;;:24;;;;:::i;:::-;2506:9;:36;;;;2549:38;2566:12;2580:6;2549:16;:38::i;:::-;2619:12;2593:58;;2607:10;2593:58;;;2633:9;2644:6;2593:58;;;;;;;;;;;;;;;;;;;;;;;;2658:47;2681:12;2695:9;2658:22;:47::i;:::-;2712:15;:13;:15::i;:::-;2733:46;2755:12;2769:9;2733:21;:46::i;:::-;2242:542;;;:::o;1006:19::-;;;;:::o;1056:24::-;;;;:::o;933:21::-;;;;;;;;;;;;;:::o;871:18::-;;;;;;;;;;;;;:::o;3207:157::-;3326:1;3302:26;;:12;:26;;;;3294:35;;;;;;;;3357:1;3343:10;:15;;3335:24;;;;;;;;3207:157;;:::o;5130:115::-;5198:7;5220:20;5235:4;;5220:10;:14;;:20;;;;:::i;:::-;5213:27;;5130:115;;;:::o;1008:129:15:-;1066:7;1081:9;1097:1;1093;:5;1081:17;;1116:1;1111;:6;;1104:14;;;;;;1131:1;1124:8;;1008:129;;;;;:::o;4394:132:10:-;4479:42;4494:12;4508;4479:14;:42::i;:::-;4394:132;;:::o;4779:113::-;;;:::o;5324:71::-;5364:6;;;;;;;;;;;:15;;:26;5380:9;5364:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;5324:71::o;3642:112::-;;;:::o;203:173:15:-;261:7;316:9;285:1;280;:6;276:35;;;303:1;296:8;;;;276:35;332:1;328;:5;316:17;;355:1;350;346;:5;;;;;;;;:10;339:18;;;;;;370:1;363:8;;203:173;;;;;;:::o;4017:130:10:-;4100:5;;;;;;;;;;;:14;;;4115:12;4129;4100:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4017:130;;:::o",
   "source": "pragma solidity ^0.4.18;\n\nimport \"../token/ERC20/ERC20.sol\";\nimport \"../math/SafeMath.sol\";\n\n/**\n * @title Crowdsale\n * @dev Crowdsale is a base contract for managing a token crowdsale,\n * allowing investors to purchase tokens with ether. This contract implements\n * such functionality in its most fundamental form and can be extended to provide additional\n * functionality and/or custom behavior.\n * The external interface represents the basic interface for purchasing tokens, and conform\n * the base architecture for crowdsales. They are *not* intended to be modified / overriden.\n * The internal interface conforms the extensible and modifiable surface of crowdsales. Override \n * the methods to add functionality. Consider using 'super' where appropiate to concatenate\n * behavior.\n */\n\ncontract Crowdsale {\n  using SafeMath for uint256;\n\n  // The token being sold\n  ERC20 public token;\n\n  // Address where funds are collected\n  address public wallet;\n\n  // How many token units a buyer gets per wei\n  uint256 public rate;\n\n  // Amount of wei raised\n  uint256 public weiRaised;\n\n  /**\n   * Event for token purchase logging\n   * @param purchaser who paid for the tokens\n   * @param beneficiary who got the tokens\n   * @param value weis paid for purchase\n   * @param amount amount of tokens purchased\n   */\n  event TokenPurchase(address indexed purchaser, address indexed beneficiary, uint256 value, uint256 amount);\n\n  /**\n   * @param _rate Number of token units a buyer gets per wei\n   * @param _wallet Address where collected funds will be forwarded to\n   * @param _token Address of the token being sold\n   */\n  function Crowdsale(uint256 _rate, address _wallet, ERC20 _token) public {\n    require(_rate > 0);\n    require(_wallet != address(0));\n    require(_token != address(0));\n\n    rate = _rate;\n    wallet = _wallet;\n    token = _token;\n  }\n\n  // -----------------------------------------\n  // Crowdsale external interface\n  // -----------------------------------------\n\n  /**\n   * @dev fallback function ***DO NOT OVERRIDE***\n   */\n  function () external payable {\n    buyTokens(msg.sender);\n  }\n\n  /**\n   * @dev low level token purchase ***DO NOT OVERRIDE***\n   * @param _beneficiary Address performing the token purchase\n   */\n  function buyTokens(address _beneficiary) public payable {\n\n    uint256 weiAmount = msg.value;\n    _preValidatePurchase(_beneficiary, weiAmount);\n\n    // calculate token amount to be created\n    uint256 tokens = _getTokenAmount(weiAmount);\n\n    // update state\n    weiRaised = weiRaised.add(weiAmount);\n\n    _processPurchase(_beneficiary, tokens);\n    TokenPurchase(msg.sender, _beneficiary, weiAmount, tokens);\n\n    _updatePurchasingState(_beneficiary, weiAmount);\n\n    _forwardFunds();\n    _postValidatePurchase(_beneficiary, weiAmount);\n  }\n\n  // -----------------------------------------\n  // Internal interface (extensible)\n  // -----------------------------------------\n\n  /**\n   * @dev Validation of an incoming purchase. Use require statemens to revert state when conditions are not met. Use super to concatenate validations.\n   * @param _beneficiary Address performing the token purchase\n   * @param _weiAmount Value in wei involved in the purchase\n   */\n  function _preValidatePurchase(address _beneficiary, uint256 _weiAmount) internal {\n    require(_beneficiary != address(0));\n    require(_weiAmount != 0);\n  }\n\n  /**\n   * @dev Validation of an executed purchase. Observe state and use revert statements to undo rollback when valid conditions are not met.\n   * @param _beneficiary Address performing the token purchase\n   * @param _weiAmount Value in wei involved in the purchase\n   */\n  function _postValidatePurchase(address _beneficiary, uint256 _weiAmount) internal {\n    // optional override\n  }\n\n  /**\n   * @dev Source of tokens. Override this method to modify the way in which the crowdsale ultimately gets and sends its tokens.\n   * @param _beneficiary Address performing the token purchase\n   * @param _tokenAmount Number of tokens to be emitted\n   */\n  function _deliverTokens(address _beneficiary, uint256 _tokenAmount) internal {\n    token.transfer(_beneficiary, _tokenAmount);\n  }\n\n  /**\n   * @dev Executed when a purchase has been validated and is ready to be executed. Not necessarily emits/sends tokens.\n   * @param _beneficiary Address receiving the tokens\n   * @param _tokenAmount Number of tokens to be purchased\n   */\n  function _processPurchase(address _beneficiary, uint256 _tokenAmount) internal {\n    _deliverTokens(_beneficiary, _tokenAmount);\n  }\n\n  /**\n   * @dev Override for extensions that require an internal state to check for validity (current user contributions, etc.)\n   * @param _beneficiary Address receiving the tokens\n   * @param _weiAmount Value in wei involved in the purchase\n   */\n  function _updatePurchasingState(address _beneficiary, uint256 _weiAmount) internal {\n    // optional override\n  }\n\n  /**\n   * @dev Override to extend the way in which ether is converted to tokens.\n   * @param _weiAmount Value in wei to be converted into tokens\n   * @return Number of tokens that can be purchased with the specified _weiAmount\n   */\n  function _getTokenAmount(uint256 _weiAmount) internal view returns (uint256) {\n    return _weiAmount.mul(rate);\n  }\n\n  /**\n   * @dev Determines how ETH is stored/forwarded on purchases.\n   */\n  function _forwardFunds() internal {\n    wallet.transfer(msg.value);\n  }\n}\n",
   "sourcePath": "zeppelin-solidity/contracts/crowdsale/Crowdsale.sol",
   "ast": {
@@ -320,7 +320,6 @@
           },
           {
             "anonymous": false,
-            "documentation": "Event for token purchase logging\n@param purchaser who paid for the tokens\n@param beneficiary who got the tokens\n@param value weis paid for purchase\n@param amount amount of tokens purchased",
             "id": 1102,
             "name": "TokenPurchase",
             "nodeType": "EventDefinition",
@@ -513,7 +512,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "1695:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -642,7 +641,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "1719:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -771,7 +770,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "1755:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -936,7 +935,6 @@
                 }
               ]
             },
-            "documentation": "@param _rate Number of token units a buyer gets per wei\n@param _wallet Address where collected funds will be forwarded to\n@param _token Address of the token being sold",
             "id": 1146,
             "implemented": true,
             "isConstructor": true,
@@ -1062,7 +1060,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2347,
+                          "referencedDeclaration": 2346,
                           "src": "2090:3:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1122,7 +1120,6 @@
                 }
               ]
             },
-            "documentation": "@dev fallback function ***DO NOT OVERRIDE***",
             "id": 1155,
             "implemented": true,
             "isConstructor": false,
@@ -1196,7 +1193,7 @@
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2347,
+                      "referencedDeclaration": 2346,
                       "src": "2325:3:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
@@ -1557,7 +1554,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2347,
+                          "referencedDeclaration": 2346,
                           "src": "2607:3:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1845,7 +1842,6 @@
                 }
               ]
             },
-            "documentation": "@dev low level token purchase ***DO NOT OVERRIDE***\n@param _beneficiary Address performing the token purchase",
             "id": 1210,
             "implemented": true,
             "isConstructor": false,
@@ -2009,7 +2005,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "3294:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2100,7 +2096,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "3335:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2127,7 +2123,6 @@
                 }
               ]
             },
-            "documentation": "@dev Validation of an incoming purchase. Use require statemens to revert state when conditions are not met. Use super to concatenate validations.\n@param _beneficiary Address performing the token purchase\n@param _weiAmount Value in wei involved in the purchase",
             "id": 1232,
             "implemented": true,
             "isConstructor": false,
@@ -2214,7 +2209,6 @@
               "src": "3724:30:10",
               "statements": []
             },
-            "documentation": "@dev Validation of an executed purchase. Observe state and use revert statements to undo rollback when valid conditions are not met.\n@param _beneficiary Address performing the token purchase\n@param _weiAmount Value in wei involved in the purchase",
             "id": 1240,
             "implemented": true,
             "isConstructor": false,
@@ -2389,7 +2383,6 @@
                 }
               ]
             },
-            "documentation": "@dev Source of tokens. Override this method to modify the way in which the crowdsale ultimately gets and sends its tokens.\n@param _beneficiary Address performing the token purchase\n@param _tokenAmount Number of tokens to be emitted",
             "id": 1255,
             "implemented": true,
             "isConstructor": false,
@@ -2548,7 +2541,6 @@
                 }
               ]
             },
-            "documentation": "@dev Executed when a purchase has been validated and is ready to be executed. Not necessarily emits/sends tokens.\n@param _beneficiary Address receiving the tokens\n@param _tokenAmount Number of tokens to be purchased",
             "id": 1268,
             "implemented": true,
             "isConstructor": false,
@@ -2635,7 +2627,6 @@
               "src": "4862:30:10",
               "statements": []
             },
-            "documentation": "@dev Override for extensions that require an internal state to check for validity (current user contributions, etc.)\n@param _beneficiary Address receiving the tokens\n@param _weiAmount Value in wei involved in the purchase",
             "id": 1276,
             "implemented": true,
             "isConstructor": false,
@@ -2794,7 +2785,6 @@
                 }
               ]
             },
-            "documentation": "@dev Override to extend the way in which ether is converted to tokens.\n@param _weiAmount Value in wei to be converted into tokens\n@return Number of tokens that can be purchased with the specified _weiAmount",
             "id": 1289,
             "implemented": true,
             "isConstructor": false,
@@ -2893,7 +2883,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2347,
+                          "referencedDeclaration": 2346,
                           "src": "5380:3:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2969,7 +2959,6 @@
                 }
               ]
             },
-            "documentation": "@dev Determines how ETH is stored/forwarded on purchases.",
             "id": 1300,
             "implemented": true,
             "isConstructor": false,
@@ -3194,7 +3183,6 @@
           },
           {
             "anonymous": false,
-            "documentation": "Event for token purchase logging\n@param purchaser who paid for the tokens\n@param beneficiary who got the tokens\n@param value weis paid for purchase\n@param amount amount of tokens purchased",
             "id": 1102,
             "name": "TokenPurchase",
             "nodeType": "EventDefinition",
@@ -3387,7 +3375,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "1695:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3516,7 +3504,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "1719:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3645,7 +3633,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "1755:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3810,7 +3798,6 @@
                 }
               ]
             },
-            "documentation": "@param _rate Number of token units a buyer gets per wei\n@param _wallet Address where collected funds will be forwarded to\n@param _token Address of the token being sold",
             "id": 1146,
             "implemented": true,
             "isConstructor": true,
@@ -3936,7 +3923,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2347,
+                          "referencedDeclaration": 2346,
                           "src": "2090:3:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -3996,7 +3983,6 @@
                 }
               ]
             },
-            "documentation": "@dev fallback function ***DO NOT OVERRIDE***",
             "id": 1155,
             "implemented": true,
             "isConstructor": false,
@@ -4070,7 +4056,7 @@
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2347,
+                      "referencedDeclaration": 2346,
                       "src": "2325:3:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
@@ -4431,7 +4417,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2347,
+                          "referencedDeclaration": 2346,
                           "src": "2607:3:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -4719,7 +4705,6 @@
                 }
               ]
             },
-            "documentation": "@dev low level token purchase ***DO NOT OVERRIDE***\n@param _beneficiary Address performing the token purchase",
             "id": 1210,
             "implemented": true,
             "isConstructor": false,
@@ -4883,7 +4868,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "3294:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -4974,7 +4959,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "3335:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -5001,7 +4986,6 @@
                 }
               ]
             },
-            "documentation": "@dev Validation of an incoming purchase. Use require statemens to revert state when conditions are not met. Use super to concatenate validations.\n@param _beneficiary Address performing the token purchase\n@param _weiAmount Value in wei involved in the purchase",
             "id": 1232,
             "implemented": true,
             "isConstructor": false,
@@ -5088,7 +5072,6 @@
               "src": "3724:30:10",
               "statements": []
             },
-            "documentation": "@dev Validation of an executed purchase. Observe state and use revert statements to undo rollback when valid conditions are not met.\n@param _beneficiary Address performing the token purchase\n@param _weiAmount Value in wei involved in the purchase",
             "id": 1240,
             "implemented": true,
             "isConstructor": false,
@@ -5263,7 +5246,6 @@
                 }
               ]
             },
-            "documentation": "@dev Source of tokens. Override this method to modify the way in which the crowdsale ultimately gets and sends its tokens.\n@param _beneficiary Address performing the token purchase\n@param _tokenAmount Number of tokens to be emitted",
             "id": 1255,
             "implemented": true,
             "isConstructor": false,
@@ -5422,7 +5404,6 @@
                 }
               ]
             },
-            "documentation": "@dev Executed when a purchase has been validated and is ready to be executed. Not necessarily emits/sends tokens.\n@param _beneficiary Address receiving the tokens\n@param _tokenAmount Number of tokens to be purchased",
             "id": 1268,
             "implemented": true,
             "isConstructor": false,
@@ -5509,7 +5490,6 @@
               "src": "4862:30:10",
               "statements": []
             },
-            "documentation": "@dev Override for extensions that require an internal state to check for validity (current user contributions, etc.)\n@param _beneficiary Address receiving the tokens\n@param _weiAmount Value in wei involved in the purchase",
             "id": 1276,
             "implemented": true,
             "isConstructor": false,
@@ -5668,7 +5648,6 @@
                 }
               ]
             },
-            "documentation": "@dev Override to extend the way in which ether is converted to tokens.\n@param _weiAmount Value in wei to be converted into tokens\n@return Number of tokens that can be purchased with the specified _weiAmount",
             "id": 1289,
             "implemented": true,
             "isConstructor": false,
@@ -5767,7 +5746,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2347,
+                          "referencedDeclaration": 2346,
                           "src": "5380:3:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -5843,7 +5822,6 @@
                 }
               ]
             },
-            "documentation": "@dev Determines how ETH is stored/forwarded on purchases.",
             "id": 1300,
             "implemented": true,
             "isConstructor": false,
@@ -5879,9 +5857,9 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-05T21:30:48.853Z"
+  "updatedAt": "2018-04-06T09:54:35.929Z"
 }

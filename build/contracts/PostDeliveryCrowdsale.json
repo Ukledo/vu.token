@@ -503,7 +503,6 @@
                 }
               ]
             },
-            "documentation": "@dev Overrides parent by storing balances instead of issuing tokens right away.\n@param _beneficiary Token purchaser\n@param _tokenAmount Amount of tokens purchased",
             "id": 1334,
             "implemented": true,
             "isConstructor": false,
@@ -635,7 +634,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "834:7:11",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -717,7 +716,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2347,
+                        "referencedDeclaration": 2346,
                         "src": "886:3:11",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -818,7 +817,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "903:7:11",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -875,7 +874,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2347,
+                          "referencedDeclaration": 2346,
                           "src": "937:3:11",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -949,7 +948,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2347,
+                          "referencedDeclaration": 2346,
                           "src": "973:3:11",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1026,7 +1025,6 @@
                 }
               ]
             },
-            "documentation": "@dev Withdraw tokens only after crowdsale ends.",
             "id": 1369,
             "implemented": true,
             "isConstructor": false,
@@ -1383,7 +1381,6 @@
                 }
               ]
             },
-            "documentation": "@dev Overrides parent by storing balances instead of issuing tokens right away.\n@param _beneficiary Token purchaser\n@param _tokenAmount Amount of tokens purchased",
             "id": 1334,
             "implemented": true,
             "isConstructor": false,
@@ -1515,7 +1512,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "834:7:11",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1597,7 +1594,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2347,
+                        "referencedDeclaration": 2346,
                         "src": "886:3:11",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -1698,7 +1695,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2350,
+                      "referencedDeclaration": 2349,
                       "src": "903:7:11",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1755,7 +1752,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2347,
+                          "referencedDeclaration": 2346,
                           "src": "937:3:11",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1829,7 +1826,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2347,
+                          "referencedDeclaration": 2346,
                           "src": "973:3:11",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1906,7 +1903,6 @@
                 }
               ]
             },
-            "documentation": "@dev Withdraw tokens only after crowdsale ends.",
             "id": 1369,
             "implemented": true,
             "isConstructor": false,
@@ -1942,9 +1938,9 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-05T21:30:48.859Z"
+  "updatedAt": "2018-04-06T09:54:35.924Z"
 }
